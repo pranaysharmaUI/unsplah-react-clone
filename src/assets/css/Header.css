@@ -1,0 +1,27 @@
+.header{
+    padding: 1rem;
+}
+.header-list
+{
+    display: flex;
+    gap: 0.5rem;
+}
+.header-search
+{
+    background-color: var(--brand-color-2);
+    border: 1px solid var(--brand-color-2);
+    border-radius: var(--radius);
+    color: var(--color-black);
+    min-height: 30px;
+    padding-left: 15px;
+
+}
+.header-brand
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: var(--ff-heading);
+    font-weight: bold;
+}
